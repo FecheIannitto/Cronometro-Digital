@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.container {
+    margin-top: 200px;
+    height: 300px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("BG.png");
+}
+
+.reloj {
+    font-size: 70px;
+    text-align: center;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 8px;
+}
+
+.minutero {
+    font-size: 32px;
+    text-shadow: -1px 0px 15px rgba(0,0,0,0.25);
+    color: black;
+}
+
+.number {
+    display: inline-block;
+    width: 100px;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: -1px 0px 15px rgba(37, 27, 27, 0.25);
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.comandos {
+    height: 100px;
+    text-align: center;
+}
+
+.boton {
+    background-color: hsl(154, 59%, 51%);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 3px rgb(48, 139, 77);
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.boton:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.boton:hover {
+    filter: brightness(80%);
+    transition: filter .25s;
+}

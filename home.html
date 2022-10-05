@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cronometro Digital</title>
+    <link rel="stylesheet" href="formato.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="reloj">Reloj</h1>
+
+        <div class="minutero">
+            <input id="horas" class="number" type="number" maxlength="2" value="00" > <span>hs.</span>
+            <input id="minutos" class="number" type="number" maxlength="2" value="00"> <span>min.</span>
+            <input id="segundos" class="number" type="number" maxlength="2" value="00"> <span>seg.</span>
+        </div>
+
+        <div class="comandos">
+            <button id="Start" class="boton">Start</button> <!-- Apretar START y que empiece a correr el tiempo -->
+            <button id="Stop" class="boton">Stop</button> <!-- Apretar STOP y que pare de correr el tiempo -->
+            <button id="Reset" class="boton">Reset</button> <!-- Apretar RESET y que reinicie el tiempo -->
+        </div>
+
+    </div>
+
+    <script src="reloj.js"></script>
+
+</body>
+</html>
